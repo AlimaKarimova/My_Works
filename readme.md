@@ -27,6 +27,6 @@
 - [] Stripe Follow Along Dropdown
 - [] Click and Drag to Scroll
 - [] Video Speed Controller
-- [] Countdown Clock
+- [x] Countdown Clock
 - [] Whack A Mole Game
 
