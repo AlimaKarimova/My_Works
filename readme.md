@@ -1,5 +1,7 @@
 
 - [x] Drum Kit
+- [x] Countdown Clock
+- [x] Book List
 - [] Clock
 - [] JPlaying with CSS Variables
 - [] Array Cardio Day 1
@@ -27,6 +29,5 @@
 - [] Stripe Follow Along Dropdown
 - [] Click and Drag to Scroll
 - [] Video Speed Controller
-- [x] Countdown Clock
 - [] Whack A Mole Game
 
