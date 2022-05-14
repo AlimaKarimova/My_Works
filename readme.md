@@ -1,8 +1,8 @@
 
-- [x] Drum Kit
+- [x] Drum Kit 
 - [x] Countdown Clock
 - [x] Book List
-- [] Clock
+- [x] Clock
 - [] JPlaying with CSS Variables
 - [] Array Cardio Day 1
 - [] Flex Panels Image Gallery
