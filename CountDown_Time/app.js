@@ -4,7 +4,7 @@ const daysEl = document.getElementById('days'),
     minutesEl = document.getElementById('minutes'),
     secondsEl = document.getElementById('seconds');
 
-const newBeginning = '22 May 2022'
+const newBeginning = '31 December 2022'
 
 function countdown() {
     const date = new Date(newBeginning);
