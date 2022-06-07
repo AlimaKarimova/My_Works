@@ -1,7 +1,8 @@
 
 - [x] Drum Kit 
 - [x] Countdown Clock
-- [x] Book List
+- [X] Random Picture
+- [] Book List
 - [] Clock
 - [] JPlaying with CSS Variables
 - [] Array Cardio Day 1

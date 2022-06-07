@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>my todo</h1>
+  <input type="text" name="todo" class="js-input" id="todo">
+  <button class="js-btn">button</button>
+  <div class="js-todos"></div>
+
+
+  <script>
+    'use strict';
+
+    const todosNode = document.querySelector('.js-todos');
+    const inputNode = document.querySelector('.js-input');
+    const btnNode = document.querySelector('.js-btn');
+    let todos = [];
+
+    function addTodo(text) {
+      const todo = {
+        text,
+        done: false,
+        id: `${Math.random()}`
+
+      };
+      todos.push(todo)
+    }
+
+    function deleteTodo(id) {
+      todos.forEach(todo => {
+        if (todo.id == id) {
+          todo.done == true;
+        }
+      })
+    }
+
+    function render() {
+      let html = '';
+      todos.forEach(todo => {
+        if (todo.done) {
+          return
+        }
+        html += `<div> ${todo.text}</div> <button data-id= "${todo.id}">done</button>`;
+      })
+      todosNode.innerHTML = html;
+    }
+
+    btnNode.addEventListener('click', () => {
+      let text = inputNode.value;
+      inputNode.value='';
+      addTodo(text);
+      render();
+    })
+
+    todosNode.addEventListener('click', (event)=>{
+      if(event.target.tagName!='BUTTON'){
+        return
+      }
+      let id =event.target.dataset.id;
+      deleteTodo(id);
+      render();  
+    })
+
+  </script>
+
+</body>
+
+</html>
