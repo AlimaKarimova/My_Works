@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Video Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Video Player</h1>
+      <video width="1200px" height="500px" poster="" id="video-player">
+        <source
+          src="Indila_Love_Story.mp4"
+        />
+      </video>
+      <div>
+         <progress id="progress" max="100" value="0" style="width:200px"></progress>
+      </div>
+      
+      <button id="play" class="bg-success">Play</button>
+      <button id="pause" class="bg-info">Pause</button>
+      <button id="stop" class="bg-info">Stop</button>
+      <button id="speed-up" class="bg-info">Fast</button>
+      <button id="speed-down" class="bg-info">Slow</button>
+      <button id="speed-normal" class="bg-info">Normal</button>
+      <label>
+        <input type="range" id="volume" min="0" max="100"/>
+        volume
+      </label>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

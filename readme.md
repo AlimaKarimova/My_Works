@@ -1,6 +1,6 @@
 
 - [x] Drum Kit 
-- [x] Countdown Clock
+- [x] Countdown Time
 - [X] Random Picture
 - [] Book List
 - [] Clock
