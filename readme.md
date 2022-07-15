@@ -2,6 +2,8 @@
 - [x] Drum Kit 
 - [x] Countdown Time
 - [X] Random Picture
+- [x] Video Player
+- [x] Quiz
 - [] Book List
 - [] Clock
 - [] JPlaying with CSS Variables
